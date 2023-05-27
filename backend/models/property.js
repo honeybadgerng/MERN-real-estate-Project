@@ -54,7 +54,7 @@ const propertySchema = new mongoose.Schema(
     },
     beds: {
       type: Number,
-      required,
+      required: true,
       min: 1,
     },
     subtype: {
